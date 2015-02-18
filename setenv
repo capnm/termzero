@@ -1,0 +1,6 @@
+#!/bin/bash
+# get the bash script directory
+d="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export PATH="$d/bin:$PATH"
+export GOPATH="$d"
